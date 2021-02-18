@@ -1,0 +1,64 @@
+*{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    ;
+}
+
+header{
+    position:fixed;
+
+    height: 12em;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+
+    background: #333;
+}
+
+header img{
+    justify-self: start;
+}
+
+header h1{
+    padding-top: 2.2em;
+    padding-left: 21em;
+    color: #fff;
+
+}
+
+
+nav {
+    position:fixed;
+    top: 12em;
+    left: 0;
+    height: 100%;
+    width: 12em;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+
+    background: #333;
+}
+
+nav a{
+    padding: 1.5em 2em;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: #666;
+}
+
+nav #aboutMeLink{
+    padding-top: 5em;
+}
