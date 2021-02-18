@@ -90,7 +90,11 @@ section > p {
 } 
 
 section ul{
+    display: flex;
     padding-left: 1.5em;
+    list-style: none;
+    flex-flow: row;
+    justify-content: space-around;
 } 
 
 
@@ -106,6 +110,10 @@ section ul{
     background: #80C7F2;
     padding: 1em;
     border-radius: 1em;
+}
+
+#projects article img{
+    width: 100%;
 }
 
 
