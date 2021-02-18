@@ -24,7 +24,7 @@ header{
     display: flex;
     flex-flow: row;
 
-    background: #80C7F2;
+    background: #4886D9;
 }
 
 header img{
@@ -38,6 +38,7 @@ header img{
 header h1{
     padding-top: 2.2em;
     padding-left: 7em;
+    color:#fff;
 
 }
 
@@ -63,9 +64,7 @@ nav a{
 }
 
 nav a:hover{
-    background: #666;
+    color: black;
+    background: #80C7F2;
 }
 
-nav #aboutMeLink{
-    margin-top: 3em;
-}
