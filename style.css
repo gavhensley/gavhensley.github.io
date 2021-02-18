@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+main{
+    background-color: #E9E5DA;
+}
+
 html{
     font-size: 16px;
     ;
@@ -20,17 +24,20 @@ header{
     display: flex;
     flex-flow: row;
 
-    background: #333;
+    background: #80C7F2;
 }
 
 header img{
     justify-self: start;
+    background: #63B0F2;
+    width: 12em;
+    height: 12em;
+    padding: 1.5em 2em;
 }
 
 header h1{
     padding-top: 2.2em;
-    padding-left: 21em;
-    color: #fff;
+    padding-left: 7em;
 
 }
 
@@ -46,7 +53,7 @@ nav {
     flex-flow: column;
     justify-content: start;
 
-    background: #333;
+    background: #4886D9;
 }
 
 nav a{
@@ -60,5 +67,5 @@ nav a:hover{
 }
 
 nav #aboutMeLink{
-    padding-top: 5em;
+    margin-top: 3em;
 }
