@@ -32,7 +32,7 @@ header{
 
 Main{
     margin: 0px auto;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 
@@ -85,7 +85,7 @@ section{
     min-height: 20em;
 }
 
-section > p {
+section article > p {
     margin: 1em 0;
 } 
 
@@ -94,9 +94,26 @@ section ul{
     padding-left: 1.5em;
     list-style: none;
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-around ;
 } 
 
+section ul img{
+    max-height: 5em;
+    margin-top: 2em;
+}
+
+#additionalMedia li a:hover{
+    color: blue;
+}
+
+#aboutMe img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 15em;
+    border-radius: 1em;
+
+}
 
 #projects{
     display: grid;
