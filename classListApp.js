@@ -2,7 +2,7 @@ const studentList = document.getElementById("appList");
 const nextFromList = document.getElementById("upNext");
 const mainButton = document.getElementById("nextButton");
 
-let currentStudents = [" Brad", " Jessica", " Rimma (Ree-ma)", " Qadriyyah (or Q)", " Denzale", " Darius (Dar-EYE-us)", " Cory"];
+let currentStudents = [" Brad", " Jessica", " Rimma (Ree-ma)", " Qadriyyah (or Q)", " Denzale", " Darius (Dar-EYE-us)"];
 
 studentList.innerText = currentStudents;
 
