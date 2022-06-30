@@ -24,10 +24,8 @@ h1, h2, h3{
 header{
     height: 12em;
     width: 100%;
-
     display: flex;
     flex-flow: row;
-
     background: #4886D9;
 }
 
@@ -81,7 +79,6 @@ nav a:hover{
 
 section{
     margin: 2em 2em 2em 14em;
-
     padding-top: 3em;
     min-height: 20em;
 }
@@ -109,13 +106,19 @@ section ul img{
 
 #aboutMe img{
     display: block;
-    margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
     max-height: 15em;
     border-radius: 1em;
+    margin-left: 1em;
+    float: right;
 
 }
+
+#aboutPAndImage{
+    display: flex;
+}
+
 
 #projects{
     display: grid;
