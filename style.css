@@ -111,14 +111,10 @@ section ul img{
     max-height: 15em;
     border-radius: 1em;
     margin-left: 1em;
+    margin-right: auto;
     float: right;
 
 }
-
-#aboutPAndImage{
-    display: flex;
-}
-
 
 #projects{
     display: grid;
